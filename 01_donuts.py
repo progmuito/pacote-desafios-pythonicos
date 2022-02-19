@@ -10,7 +10,8 @@ e donuts(23) retorna 'Number of donuts: many'
 """
 
 def donuts(count):
-    # +++ SUA SOLUÇÃO +++
+    qtd = count if count < 10 else 'many'
+    return f'Number of donuts: {qtd}'
     return
 
 
